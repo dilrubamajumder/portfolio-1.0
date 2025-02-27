@@ -1,0 +1,194 @@
+
+body {
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1ECE5;
+    color: #333;
+}
+
+/* nav */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgb(222,213,207);
+    padding-bottom: 0%;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover {
+    color: #4049EC
+}
+
+.logo{
+    color: #4049EC;
+    font-size: 35px;
+
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 10%;
+}
+
+h2 {
+    font-size: 52px;
+    text-align: center;
+}
+
+.welcome-card-p{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.highlight {
+    
+    font-weight: bold;
+    color: #4049EC;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #DED5CF;
+    padding: 10px;
+    width: 340px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    margin-top: 15px;
+    font-size: 32px;
+    color: #4049EC;
+    text-decoration: underline black;
+
+}
+
+.project-card p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/* footer */
+.footer {
+    background-color: #F1ECE5;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    flex: .6;
+    background-color: #DDD5CF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+
+
+.input-group label {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.input-group input,
+.message-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.message-group {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.message-group label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.social-links {
+    display: flex;
+    flex: 0.1;
+    align-items: center;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-links img {
+    padding-top:330%;
+    width: 70px; 
+    height: 70px; 
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #030303;
+}
+
+
